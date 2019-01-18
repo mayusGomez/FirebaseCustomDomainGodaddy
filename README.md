@@ -14,7 +14,7 @@ My domain (example) www.foo.com.co intially point to a on premise Web Portal, an
 * Into hosting option, we need to select the option "Connect domain":
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/03-FirebaseConnetDomain.png)
 * In the modal, we need to insert the domain that we need to config:
-![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/04-FirebaseInsertDomain.PNG)
+![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/04-FirebaseInsertDom.png)
 * Firebase give you a TXT string to insert into GoDaddy, we need to go to GoDaddy and select the option "ADD", then select the option "type"="TXT", "host"="@" and "TXT Value"="Firebase string":
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/05-FirebaseTXTConfig.PNG)
 * Then, we need to indicate to Firebase that TXT configuration is done, and continue with validation. It could take a few minutes, but have patience. Then Firebase confirm your domain ownership and let you continue with the configuration:

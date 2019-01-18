@@ -17,7 +17,7 @@ My domain (example) www.foo.com.co intially point to a on premise Web Portal, an
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/04-FirebaseInsertDom.png)
 * Firebase give you a TXT string to insert into GoDaddy, we need to go to GoDaddy and select the option "ADD", then select the option "type"="TXT", "host"="@" and "TXT Value"="Firebase string":
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/05-FirebaseTXTConfig.PNG)
-* Then, we need to indicate to Firebase that TXT configuration is done, and continue with validation. It could take a few minutes, but have patience. Then Firebase confirm your domain ownership and let you continue with the configuration:
+* Then, we need to indicate to Firebase that TXT configuration is done, and continue with validation. It could take a few minutes, be patience. Then Firebase confirm your domain ownership and let you continue with the configuration:
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/06-FirebaseConfigToGodaddy.PNG)
 * Then in Godaddy, we need to select the option "ADD", with the options: "Type"="A", "Host"="only subdamin's name", "Points to"="IP's provided by firebase", this operation by each IP that firebase give to us:
 ![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/07-GoDaddyConfig.PNG)

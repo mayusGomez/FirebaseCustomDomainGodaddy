@@ -8,6 +8,7 @@ My domain (example) www.foo.com.co intially point to a on premise Web Portal, an
 * Inside Godaddy, login with your account
 * In "Domains" section, select "DNS" on the domain that you need config
 * The initial configuration was: 
+![alt text](https://github.com/mayusGomez/FirebaseCustomDomainGodaddy/raw/master/01-DNSmanage.png)
 * Then we need to login into Firebase console, select the project and the "Hosting Option"
 * Into hosting option, we need to select the option "Connect domain":
 * In the modal, we need to insert the domain that we need to config:
